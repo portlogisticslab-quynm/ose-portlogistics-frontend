@@ -1,0 +1,625 @@
+{
+  "groups": [
+    {
+      "slug": "foundation",
+      "code": "I",
+      "icon": "foundation",
+      "name_vi": "Phần mềm nền tảng",
+      "name_en": "Foundation tools",
+      "desc_vi": "Xác suất, phân phối và lý thuyết hàng đợi — nền móng cho mọi bài toán cảng và logistics.",
+      "desc_en": "Probability, distributions and queueing theory — the groundwork for every port and logistics model.",
+      "apps": [
+        {
+          "slug": "poisson",
+          "name": "Poisson and Exponential Distribution Simulation",
+          "url": "https://poisson.ose.vn/",
+          "desc_vi": "Mô phỏng phân phối Poisson (số lượt đến) và phân phối mũ (khoảng thời gian giữa các lượt đến).",
+          "desc_en": "Simulate Poisson arrivals and exponential inter-arrival times.",
+          "guides": [
+            {
+              "title": "1032. Web_Huong_dan_su_dung_Poisson_Exponential_Simulation_2026.pdf",
+              "url": "https://drive.google.com/file/d/1hzNgG4TWaQAsU1ekmBDYf7w95uz-HUK9/view"
+            }
+          ]
+        },
+        {
+          "slug": "mm1",
+          "name": "M/M/1 Queue Simulation",
+          "url": "https://mm1.ose.vn/",
+          "desc_vi": "Mô phỏng hàng đợi một kênh phục vụ: thời gian chờ, chiều dài hàng đợi, hệ số sử dụng.",
+          "desc_en": "Single-server queue: waiting time, queue length and utilisation.",
+          "guides": [
+            {
+              "title": "1031. Web_Huong_dan_su_dung_M_M_1_Simulation_2026.pdf",
+              "url": "https://drive.google.com/file/d/1N673GqjZoGWHw5uJeK6DI6IvqRk8u0LL/view"
+            }
+          ]
+        },
+        {
+          "slug": "mmc",
+          "name": "Queue Simulation M/M/c + SLA",
+          "url": "https://mmc.ose.vn/",
+          "desc_vi": "Hàng đợi nhiều kênh phục vụ, đánh giá mức dịch vụ SLA và số kênh (bến, cổng) cần thiết.",
+          "desc_en": "Multi-server queue with SLA targets to size berths, gates or service channels.",
+          "guides": [
+            {
+              "title": "1030. Web_Huong_dan_su_dung_M_M_c_Simulation_2026.pdf",
+              "url": "https://drive.google.com/file/d/1q2CCeNAWb5JpWKNByVLMOXI73Pp2oN7T/view"
+            }
+          ]
+        },
+        {
+          "slug": "findbestfit",
+          "name": "Distribution Fitting Tool v3.3c Web",
+          "url": "https://findbestfit.ose.vn/",
+          "desc_vi": "Tìm phân phối xác suất phù hợp nhất cho dữ liệu thực đo bằng các kiểm định độ phù hợp.",
+          "desc_en": "Find the best-fitting probability distribution for field data with goodness-of-fit tests.",
+          "guides": [
+            {
+              "title": "1010. Web_Huong_dan_su_dung_FindBestFit_v3_3c_2026.pdf",
+              "url": "https://drive.google.com/file/d/1TKuYTC3-4ZXUe-TKUbtEQA-B86ZZOuhc/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "forecasting",
+      "code": "II",
+      "icon": "forecasting",
+      "name_vi": "Phần mềm dự báo",
+      "name_en": "Forecasting",
+      "desc_vi": "Dự báo sản lượng hàng hoá, lượt tàu và nhu cầu logistics bằng thống kê và AI.",
+      "desc_en": "Forecast cargo throughput, ship calls and logistics demand with statistics and AI.",
+      "apps": [
+        {
+          "slug": "forecasting-mlr",
+          "name": "Forecasting MLR Seasonal Web App",
+          "url": "https://forecasting.ose.vn/",
+          "desc_vi": "Dự báo bằng hồi quy tuyến tính bội có thành phần mùa vụ.",
+          "desc_en": "Multiple linear regression forecasting with seasonal components.",
+          "guides": [
+            {
+              "title": "1023. Huong_dan_su_dung_Forecasting_MLR_Seasonal_Web_App_V1_8.pdf",
+              "url": "https://drive.google.com/file/d/1kHZV7JzwIt3hETluUN_juJtj7s9oiT_w/view"
+            }
+          ]
+        },
+        {
+          "slug": "arima",
+          "name": "ARIMA / SARIMA Web App v3",
+          "url": "https://arima.ose.vn/",
+          "desc_vi": "Dự báo chuỗi thời gian với mô hình ARIMA và SARIMA (có mùa vụ).",
+          "desc_en": "Time-series forecasting with ARIMA and seasonal SARIMA models.",
+          "guides": [
+            {
+              "title": "1020. Web_Huong_dan_su_dung_ARIMA_SARIMA_Web_App_2026.pdf",
+              "url": "https://drive.google.com/file/d/1dF-1ItoQtiSn4u6MmLl-6_SdArtHonn7/view"
+            }
+          ]
+        },
+        {
+          "slug": "ai-forecast",
+          "name": "AI Forecast — portlogistics.vn",
+          "url": "https://ai-forecast.ose.vn/",
+          "desc_vi": "Dự báo bằng mô hình trí tuệ nhân tạo cho dữ liệu cảng và logistics.",
+          "desc_en": "AI-driven forecasting for port and logistics data.",
+          "featured": true,
+          "guides": [
+            {
+              "title": "1022. Huong_dan_su_dung_AI_Forecast_ose_vn.pdf",
+              "url": "https://drive.google.com/file/d/1omYWXqXWzWnqWc35gwzdFZ01-2vExP0-/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "logistics",
+      "code": "III",
+      "icon": "logistics",
+      "name_vi": "Quy hoạch logistics và vận tải",
+      "name_en": "Logistics & transport planning",
+      "desc_vi": "Tồn kho, kho bãi, mạng lưới logistics, tuyến vận tải đa phương thức và an toàn giao thông.",
+      "desc_en": "Inventory, warehousing, logistics networks, multimodal routing and traffic safety.",
+      "apps": [
+        {
+          "slug": "inventory",
+          "name": "Inventory Optimization with Lead Time",
+          "url": "https://inventory.ose.vn/",
+          "desc_vi": "Tối ưu chính sách tồn kho khi có thời gian chờ hàng (lead time).",
+          "desc_en": "Optimise inventory policy under replenishment lead time.",
+          "guides": [
+            {
+              "title": "1060. Web_Huong_dan_su_dung_INV_OPT_LT_GUI_V1_2.pdf",
+              "url": "https://drive.google.com/file/d/1pGhudeOrGyiuE2kv1VDgXa9u8wk1nc-i/view"
+            }
+          ]
+        },
+        {
+          "slug": "smart-warehouse",
+          "name": "Smart Warehouse v2.5.5 Web",
+          "url": "https://smartwarehouse.ose.vn/",
+          "desc_vi": "Quy hoạch và vận hành kho thông minh.",
+          "desc_en": "Smart warehouse planning and operations.",
+          "guides": [
+            {
+              "title": "2040_Huong_dan_chi_tiet_Smart_Warehouse_Web_v2.5.5.pdf",
+              "url": "https://drive.google.com/file/d/1Jn_Few9jUqUQ3Z6pJ905aEkISqsFmtff/view"
+            }
+          ]
+        },
+        {
+          "slug": "logistics-planning",
+          "name": "Logistics Planning Access",
+          "url": "https://access-logisticsplanning.ose.vn/",
+          "desc_vi": "Quy hoạch mạng lưới logistics đa tầng.",
+          "desc_en": "Multi-layer logistics network planning.",
+          "guides": [
+            {
+              "title": "1080. Web_Huong_dan_su_dung_Multi_Layer_Logistics_Planning_2026.pdf",
+              "url": "https://drive.google.com/file/d/1lSMoZr-G6qT7kWFrOcWmKgvqVi-13NKU/view"
+            }
+          ]
+        },
+        {
+          "slug": "route-optimizer",
+          "name": "OSE Multimodal Route Optimizer V1.1.1",
+          "url": "https://route.ose.vn/",
+          "desc_vi": "Tối ưu tuyến vận tải đa phương thức.",
+          "desc_en": "Multimodal transport route optimisation.",
+          "guides": [
+            {
+              "title": "2000_Multimodal_Route_Optimizer_V1_1_1_EDU_User_Guide_VN",
+              "url": "https://drive.google.com/file/d/1TOOGeSwf0k5EbvCuW8wvPGPoj7zJ2DgV/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "slug": "traffic-safety",
+          "name": "Traffic Safety Simulation V2.5.2",
+          "url": "https://trafficsafety.ose.vn/",
+          "desc_vi": "Mô phỏng và đánh giá an toàn giao thông.",
+          "desc_en": "Traffic safety simulation and assessment.",
+          "guides": [
+            {
+              "title": "2005_Huong_dan_su_dung_phan_mem_mo_phong_khoang_cach_an_toan_V2_5_2",
+              "url": "https://drive.google.com/file/d/1YS63GdsDqX6Zo0LlGqifbjvZJ-JBRvNR/view?usp=sharing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "port",
+      "code": "IV",
+      "icon": "port",
+      "name_vi": "Cảng biển và logistics cảng biển",
+      "name_en": "Seaport & port logistics",
+      "desc_vi": "Mô phỏng dòng hàng, năng lực luồng tàu, độ sâu dưới ky và tư vấn cập bến bằng AI.",
+      "desc_en": "Cargo flow, channel capacity, under-keel clearance and AI berthing advisory.",
+      "apps": [
+        {
+          "slug": "portflow",
+          "name": "Port Flow Simulation — 3-Stage Serial System",
+          "url": "https://portflow.ose.vn/",
+          "desc_vi": "Mô phỏng dòng hàng qua cảng gồm 3 công đoạn nối tiếp.",
+          "desc_en": "Simulate cargo flow through a three-stage serial port system.",
+          "guides": [
+            {
+              "title": "1040. Web_Huong_dan_su_dung_PortFlow_Simulation_2026.pdf",
+              "url": "https://drive.google.com/file/d/183q1r3o3oYas_jWP27BmoJ-jrmchh59m/view"
+            }
+          ]
+        },
+        {
+          "slug": "port-simulation",
+          "name": "Port Simulation Suite",
+          "url": "https://portsimulation.ose.vn/",
+          "desc_vi": "Bộ công cụ mô phỏng hoạt động khai thác cảng.",
+          "desc_en": "A suite of port operations simulation tools.",
+          "guides": [
+            {
+              "title": "2020_Users_guide_PortSimulationSuite_Web_v2_0_1.pdf",
+              "url": "https://drive.google.com/file/d/1_3xU32qvGiL4aAOn_mqp38y_TozWttT8/view"
+            }
+          ]
+        },
+        {
+          "slug": "channel-simulation",
+          "name": "Channel Capacity Simulation V6",
+          "url": "https://channelsimulation.ose.vn/",
+          "desc_vi": "Mô phỏng năng lực thông qua của luồng tàu.",
+          "desc_en": "Navigation channel capacity simulation.",
+          "guides": [
+            {
+              "title": "2030_HDSD Channel_Capacity_Simulation_V5_Web-based_Version.pdf",
+              "url": "https://drive.google.com/file/d/1CsobFmCfK0mGCrkfNaAVyw52Q2_UyCpQ/view"
+            }
+          ]
+        },
+        {
+          "slug": "ukc",
+          "name": "UKC Controller",
+          "url": "https://ukc.ose.vn/",
+          "desc_vi": "Tính toán và kiểm soát độ sâu dự phòng dưới ky tàu (Under Keel Clearance).",
+          "desc_en": "Under Keel Clearance calculation and control.",
+          "guides": [
+            {
+              "title": "2050_UKC_Controller_Huong_dan_su_dung.pdf",
+              "url": "https://drive.google.com/file/d/1Iu2JNJyPenDSIpvl1W6wMyeKxFZ0fW-M/view"
+            }
+          ]
+        },
+        {
+          "slug": "berthing-ai",
+          "name": "Berthing AI Advisory System V3.4.21 — Multi-State Forecasting",
+          "url": "https://berthingai.ose.vn/",
+          "desc_vi": "Hệ thống tư vấn cập bến bằng AI với dự báo đa trạng thái.",
+          "desc_en": "AI berthing advisory system with multi-state forecasting.",
+          "featured": true,
+          "guides": [
+            {
+              "title": "3060_Huong_dan_van_hanh_nhanh_Berthing_AI_V3.4.21.pdf",
+              "url": "https://drive.google.com/file/d/1qzhbsFJC51cWcI1pyk5EkNHCfCDjnKgl/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "port-design",
+      "code": "V",
+      "icon": "design",
+      "name_vi": "Thiết kế cảng",
+      "name_en": "Port structural design",
+      "desc_vi": "Thùng chìm, tải trọng neo buộc và kết cấu bê tông cốt thép cho công trình cảng.",
+      "desc_en": "Caissons, mooring loads and reinforced-concrete design for port structures.",
+      "apps": [
+        {
+          "slug": "cscheck",
+          "name": "CScheck Web v4",
+          "url": "https://caisson.ose.vn/",
+          "desc_vi": "Tính toán, kiểm tra thùng chìm bê tông cốt thép.",
+          "desc_en": "Reinforced-concrete caisson calculation and checking.",
+          "guides": [
+            {
+              "title": "2080_Huong_dan_su_dung_tinh_thung_chim_BTCT_2026.pdf",
+              "url": "https://drive.google.com/file/d/12lsjlO_VuI1D5IbLhwQF1FBsD3tZ6l2Z/view"
+            }
+          ]
+        },
+        {
+          "slug": "mooring-loads",
+          "name": "Mooring Loads",
+          "url": "https://mooringloads.ose.vn/",
+          "desc_vi": "Tính toán tải trọng neo buộc tàu tác dụng lên công trình bến.",
+          "desc_en": "Ship mooring load calculation for berth structures.",
+          "guides": [
+            {
+              "title": "2070_Mooring_Loads_HDSD_2026.pdf",
+              "url": "https://drive.google.com/file/d/1MnRk6TGnd0fEtOiluvyyP5YyqS6u_Gb3/view"
+            }
+          ]
+        },
+        {
+          "slug": "rc-design",
+          "name": "RC Design",
+          "url": "https://rcdesign.ose.vn/",
+          "desc_vi": "Thiết kế cấu kiện bê tông cốt thép.",
+          "desc_en": "Reinforced-concrete member design.",
+          "guides": [
+            {
+              "title": "2060_Huong-dan-su-dung-RC-Design_VN.pdf",
+              "url": "https://drive.google.com/file/d/164HT64umm8J2vopgKqPlgs0UmblMSFwm/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "management",
+      "code": "VI",
+      "icon": "management",
+      "name_vi": "Phần mềm quản lý",
+      "name_en": "Management & decision",
+      "desc_vi": "Theo dõi KPI và ra quyết định đa tiêu chí.",
+      "desc_en": "KPI tracking and multi-criteria decision making.",
+      "apps": [
+        {
+          "slug": "sales-kpi",
+          "name": "Non Ecolodge Sales KPI V1.0.2m.5 — Lịch đặt phòng",
+          "url": "https://kpi.ose.vn/",
+          "desc_vi": "Theo dõi KPI bán hàng và lịch đặt phòng.",
+          "desc_en": "Sales KPI tracking and booking calendar.",
+          "guides": [
+            {
+              "title": "2015_HDSD_phan_mem_quan_ly_nhan_su_KPI_Doanh nghiep_V1.0.2m.5",
+              "url": "https://drive.google.com/file/d/1ULE6N6BMxrtm8R_MKbW68H-05bBbYJtK/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "slug": "mcdm",
+          "name": "Web-based MCDM Decision Model",
+          "url": "https://mcdm.ose.vn/",
+          "desc_vi": "Mô hình ra quyết định đa tiêu chí (MCDM) trên nền web.",
+          "desc_en": "Web-based multi-criteria decision-making (MCDM) model.",
+          "guides": [
+            {
+              "title": "2010_HDSD MCDM tools-20240206.pdf",
+              "url": "https://drive.google.com/file/d/1-z9KHczInw8rff8eqcS-ReQsATaKRS5S/view?usp=drive_link"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "demos": [
+    {
+      "title_vi": "Demo — Poisson and Exponential Distribution Simulation",
+      "title_en": "Demo — Poisson and Exponential Distribution Simulation",
+      "url": "https://drive.google.com/file/d/1Vfj-hlrcZYoHwokuwr8TxeRJYJyFeegP/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "poisson"
+    },
+    {
+      "title_vi": "Demo — M/M/1 Queue Simulation",
+      "title_en": "Demo — M/M/1 Queue Simulation",
+      "url": "https://drive.google.com/file/d/1yHUZ9EwXfy_SLnVfIj1dF5JFSaY5pNvh/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "mm1"
+    },
+    {
+      "title_vi": "Demo — Queue Simulation M/M/c + SLA",
+      "title_en": "Demo — Queue Simulation M/M/c + SLA",
+      "url": "https://drive.google.com/file/d/1gs_NAPEk68oJoRRTXCAyQWLBSoEwfMhE/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "mmc"
+    },
+    {
+      "title_vi": "Demo — Distribution Fitting Tool v3.3c Web",
+      "title_en": "Demo — Distribution Fitting Tool v3.3c Web",
+      "url": "https://drive.google.com/file/d/1rLT03siaceDHS2NYmLe96r8SMCOn-m04/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "findbestfit"
+    },
+    {
+      "title_vi": "Demo — Forecasting MLR Seasonal Web App",
+      "title_en": "Demo — Forecasting MLR Seasonal Web App",
+      "url": "https://drive.google.com/file/d/1dCS_vTAxNf-a6S7UQDN0HOxy5UrzAliP/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "forecasting-mlr"
+    },
+    {
+      "title_vi": "Demo — ARIMA / SARIMA Web App v3",
+      "title_en": "Demo — ARIMA / SARIMA Web App v3",
+      "url": "https://drive.google.com/file/d/1Nrr5WQ9kgGoy6cUIw3kojZerIzAp0sFz/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "arima"
+    },
+    {
+      "title_vi": "Demo — AI Forecast — portlogistics.vn",
+      "title_en": "Demo — AI Forecast — portlogistics.vn",
+      "url": "https://drive.google.com/file/d/1RbY4yLPmWlPBzXbEGSsORRVOirseSepo/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "ai-forecast"
+    },
+    {
+      "title_vi": "Demo — Inventory Optimization with Lead Time",
+      "title_en": "Demo — Inventory Optimization with Lead Time",
+      "url": "https://drive.google.com/file/d/1Kovez3H0ndj6kjXCL9dpU8poFWlAENbJ/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "inventory"
+    },
+    {
+      "title_vi": "Demo — Smart Warehouse v2.5.5 Web",
+      "title_en": "Demo — Smart Warehouse v2.5.5 Web",
+      "url": "https://drive.google.com/file/d/1_Q7SSs35ue92_rdP1Q_fD3EhkSvVOqfp/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "smart-warehouse"
+    },
+    {
+      "title_vi": "Demo — Logistics Planning Access",
+      "title_en": "Demo — Logistics Planning Access",
+      "url": "https://drive.google.com/file/d/1Nnm-oZrXAQoOwo2gVx7riXErumpmS2J_/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "logistics-planning"
+    },
+    {
+      "title_vi": "Demo — OSE Multimodal Route Optimizer V1.1.1",
+      "title_en": "Demo — OSE Multimodal Route Optimizer V1.1.1",
+      "url": "https://drive.google.com/file/d/15_1mP3_wbw0ol4y7TVloRuVBbj-8qlMo/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "route-optimizer"
+    },
+    {
+      "title_vi": "Demo — Traffic Safety Simulation V2.5.2",
+      "title_en": "Demo — Traffic Safety Simulation V2.5.2",
+      "url": "https://drive.google.com/file/d/1wrBgbgTJYUSBTZDX0rWsSUvkIlLxpmBV/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "traffic-safety"
+    },
+    {
+      "title_vi": "Demo — Port Flow Simulation — 3-Stage Serial System",
+      "title_en": "Demo — Port Flow Simulation — 3-Stage Serial System",
+      "url": "https://drive.google.com/file/d/1CRmLLeqegLZLT6jw4UqUhq3Lshtuz9xF/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "portflow"
+    },
+    {
+      "title_vi": "Demo — Port Simulation Suite",
+      "title_en": "Demo — Port Simulation Suite",
+      "url": "https://drive.google.com/file/d/10SWsUzOzYhzislWPHjRN9Oze4SF2qRit/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "port-simulation"
+    },
+    {
+      "title_vi": "Demo — Channel Capacity Simulation V6",
+      "title_en": "Demo — Channel Capacity Simulation V6",
+      "url": "https://drive.google.com/file/d/1KHeFEYXitmQQfLFg2KcKf5y_HZZtqCQs/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "channel-simulation"
+    },
+    {
+      "title_vi": "Demo — UKC Controller",
+      "title_en": "Demo — UKC Controller",
+      "url": "https://drive.google.com/file/d/1pL5kvlcFlNCFt_8FBhN46rueBJjxHHce/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "ukc"
+    },
+    {
+      "title_vi": "Demo — Berthing AI Advisory System V3.4.21 — Multi-State Forecasting",
+      "title_en": "Demo — Berthing AI Advisory System V3.4.21 — Multi-State Forecasting",
+      "url": "https://drive.google.com/file/d/1V8QafL2ZUAULVWIdg2U4Itbi_vqKBPA2/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "berthing-ai"
+    },
+    {
+      "title_vi": "Demo — CScheck Web v4",
+      "title_en": "Demo — CScheck Web v4",
+      "url": "https://drive.google.com/file/d/19Vr2KPgzx9gZLOXmneXF51fQzyNKlX6I/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "cscheck"
+    },
+    {
+      "title_vi": "Demo — Mooring Loads",
+      "title_en": "Demo — Mooring Loads",
+      "url": "https://drive.google.com/file/d/1HiE42RdfqtfLNMNvupcM-qq6sZZmSMVB/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "mooring-loads"
+    },
+    {
+      "title_vi": "Demo — RC Design",
+      "title_en": "Demo — RC Design",
+      "url": "https://drive.google.com/file/d/1tFjOyA5yd0RyYK9y3nWPMc9kUM6y0wPJ/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "rc-design"
+    },
+    {
+      "title_vi": "Demo — Non Ecolodge Sales KPI V1.0.2m.5 — Lịch đặt phòng",
+      "title_en": "Demo — Non Ecolodge Sales KPI V1.0.2m.5 — Lịch đặt phòng",
+      "url": "https://drive.google.com/file/d/1y-Q9xbV6-GXfI3wFsWRiU54-LJXpEdL4/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "sales-kpi"
+    },
+    {
+      "title_vi": "Demo — Web-based MCDM Decision Model",
+      "title_en": "Demo — Web-based MCDM Decision Model",
+      "url": "https://drive.google.com/file/d/1j_A-v6QHQjqokCG93dB2eVVAuuJYkJ6g/view?usp=sharing",
+      "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
+      "desc_en": "Walkthrough clip of the application.",
+      "app_slug": "mcdm"
+    },
+    {
+      "title_vi": "Phần mềm mô phỏng hoạt động cảng biển",
+      "title_en": "Port operation simulation",
+      "url": "https://drive.google.com/file/d/1qUF33cea6xSCukUmCa3iZv-YPaCIp1MS/view",
+      "desc_vi": "Phần mềm mô phỏng hoạt động cảng biển được sử dụng cho quy hoạch cảng và vận hành khai thác",
+      "desc_en": "Port operation simulation is used for port layout planning and investment"
+    },
+    {
+      "title_vi": "Video demo 1",
+      "title_en": "Demo video 1",
+      "url": "https://lnkd.in/p/gk3UUsWp",
+      "desc_vi": "Xem clip demo trên LinkedIn.",
+      "desc_en": "Watch the demo clip on LinkedIn."
+    },
+    {
+      "title_vi": "Video demo 2",
+      "title_en": "Demo video 2",
+      "url": "https://lnkd.in/p/gwcwMr4Y",
+      "desc_vi": "Xem clip demo trên LinkedIn.",
+      "desc_en": "Watch the demo clip on LinkedIn."
+    },
+    {
+      "title_vi": "Video demo 3",
+      "title_en": "Demo video 3",
+      "url": "https://lnkd.in/p/gcPZrzTd",
+      "desc_vi": "Xem clip demo trên LinkedIn.",
+      "desc_en": "Watch the demo clip on LinkedIn."
+    }
+  ],
+  "courses": [
+    {
+      "title_vi": "Cơ sở hạ tầng cảng biển",
+      "title_en": "Port engineering and infrastructure",
+      "url": "https://drive.google.com/drive/folders/1N3XtJk01Fc4l5peWspw4F3oJav6N-zdU",
+      "desc_vi": "Giới thiệu tổng quan về cơ sở hạ tầng cảng biển Việt nam",
+      "desc_en": "Introduction to seaport infrastructure of Vietnam"
+    },
+    {
+      "title_vi": "Bài giảng Kỹ thuật dự báo",
+      "title_en": "Forecasting Techniques — lecture notes",
+      "url": "https://drive.google.com/drive/folders/1fFw25QlTID-tz7fyQnI3nIx8bZu2in8i",
+      "desc_vi": "Thư mục bài giảng (PDF) về các kỹ thuật dự báo.",
+      "desc_en": "Lecture folder (PDF) on forecasting techniques."
+    },
+    {
+      "title_vi": "Cơ sở hạ tầng Logistics — K70LGT",
+      "title_en": "Logistics Infrastructure — K70LGT",
+      "url": "https://drive.google.com/drive/folders/1N3XtJk01Fc4l5peWspw4F3oJav6N-zdU",
+      "desc_vi": "Thư mục bài giảng học phần Cơ sở hạ tầng Logistics, lớp K70LGT.",
+      "desc_en": "Course folder for Logistics Infrastructure, class K70LGT."
+    }
+  ],
+  "links": [
+    {
+      "kind": "email",
+      "label_vi": "quynm@portlogistics.vn",
+      "label_en": "quynm@portlogistics.vn",
+      "url": "mailto:quynm@portlogistics.vn"
+    },
+    {
+      "kind": "phone",
+      "label_vi": "Hotline: 0961 567 503",
+      "label_en": "Hotline: +84 961 567 503",
+      "url": "tel:+84961567503"
+    },
+    {
+      "kind": "zalo",
+      "label_vi": "Zalo: 0961 567 503",
+      "label_en": "Zalo: 0961 567 503",
+      "url": "https://zalo.me/0961567503"
+    },
+    {
+      "kind": "website",
+      "label_vi": "Website portlogistics.vn",
+      "label_en": "portlogistics.vn website",
+      "url": "https://portlogistics.vn/"
+    },
+    {
+      "kind": "linkedin",
+      "label_vi": "LinkedIn — Quy Nguyen Minh",
+      "label_en": "LinkedIn — Quy Nguyen Minh",
+      "url": "https://www.linkedin.com/in/quy-nguyen-minh-861a419b/"
+    },
+    {
+      "kind": "researchgate",
+      "label_vi": "ResearchGate — N. M. Quy",
+      "label_en": "ResearchGate — N. M. Quy",
+      "url": "https://www.researchgate.net/profile/N-Quy"
+    }
+  ]
+}

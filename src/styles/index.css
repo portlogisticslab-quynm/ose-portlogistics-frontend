@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-white font-sans text-ink antialiased; }
+  ::selection { background: rgba(242, 106, 27, .2); }
+  :focus-visible { outline: 2px solid #17A9BF; outline-offset: 2px; }
+}
+
+/* Scroll-in animation — only when JS is running (html.js) and motion is allowed */
+html.js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+html.js .reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  html.js .reveal { opacity: 1; transform: none; transition: none; }
+}
