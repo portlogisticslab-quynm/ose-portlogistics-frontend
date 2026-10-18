@@ -62,7 +62,7 @@ export default function StatsPanel({ session, onAuthError }: { session: Session;
 
   const num = "px-3 py-2 text-right font-mono tabular-nums";
   return (
-    <Panel title="Thống kê lượt bấm" actions={<>
+    <Panel title="Lượt bấm trên trang chủ (hub)" actions={<>
       <select className={`${inputCls} w-36`} value={days} onChange={(e) => setDays(Number(e.target.value))}>
         {PERIODS.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
       </select>

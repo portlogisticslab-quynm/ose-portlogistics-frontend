@@ -10,6 +10,7 @@ import DataPanel from "./DataPanel";
 import PromotePanel from "./PromotePanel";
 import RegistrationsPanel from "./RegistrationsPanel";
 import StatsPanel from "./StatsPanel";
+import VisitsPanel from "./VisitsPanel";
 
 export interface Session { token: string; username: string; role: "admin" | "editor" | "member" }
 
@@ -78,7 +79,8 @@ export default function AdminApp() {
 
   const tabs: Array<[Tab, string]> = [
     ["registrations", "Đăng ký khoá học"],
-    ["stats", "Thống kê"],
+    ["visits", "Truy cập app"],
+    ["stats", "Lượt bấm trên hub"],
     ...ENTITIES.map((e) => [e.key, e.label] as [Tab, string]),
     ["promote", "Quảng bá"],
     ...(session.role === "admin" ? ([["users", "Người dùng & quyền"], ["audit", "Nhật ký"], ["data", "Sao lưu"]] as Array<[Tab, string]>) : []),
@@ -108,6 +110,7 @@ export default function AdminApp() {
       <main className="mx-auto max-w-page px-4 py-8 sm:px-6">
         {def && <EntityPanel key={def.key} def={def} session={session} onAuthError={onAuthError} />}
         {tab === "registrations" && <RegistrationsPanel session={session} onAuthError={onAuthError} />}
+        {tab === "visits" && <VisitsPanel session={session} onAuthError={onAuthError} />}
         {tab === "stats" && <StatsPanel session={session} onAuthError={onAuthError} />}
         {tab === "promote" && <PromotePanel />}
         {tab === "users" && <UsersPanel session={session} onAuthError={onAuthError} />}

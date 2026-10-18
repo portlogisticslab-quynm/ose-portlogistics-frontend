@@ -1,5 +1,8 @@
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+/ose-track.js
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
 /admin/*
   X-Robots-Tag: noindex, nofollow
 /*
