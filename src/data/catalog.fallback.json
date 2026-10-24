@@ -234,7 +234,7 @@
         },
         {
           "slug": "traffic-safety",
-          "name": "Traffic Safety Simulation V2.5.2",
+          "name": "Traffic Safety Simulation V2.5.3",
           "url": "https://trafficsafety.ose.vn/",
           "desc_vi": "Mô phỏng và đánh giá an toàn giao thông.",
           "desc_en": "Traffic safety simulation and assessment.",
@@ -624,8 +624,8 @@
       "app_slug": "route-optimizer"
     },
     {
-      "title_vi": "Demo — Traffic Safety Simulation V2.5.2",
-      "title_en": "Demo — Traffic Safety Simulation V2.5.2",
+      "title_vi": "Demo — Traffic Safety Simulation V2.5.3",
+      "title_en": "Demo — Traffic Safety Simulation V2.5.3",
       "url": "https://drive.google.com/file/d/1wrBgbgTJYUSBTZDX0rWsSUvkIlLxpmBV/view?usp=sharing",
       "desc_vi": "Clip hướng dẫn thao tác trên phần mềm.",
       "desc_en": "Walkthrough clip of the application.",
