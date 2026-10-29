@@ -8,7 +8,8 @@
  * - Mã khách ẩn danh `ose_vid` (cookie Domain=.ose.vn) dùng chung cho mọi app,
  *   nên cùng một người vào nhiều app vẫn được nhận ra là một người.
  * - Không gửi IP, tên, email hay nội dung nhập trong app.
- * - Tuỳ chọn: data-api="https://..." để đổi máy chủ nhận số liệu.
+ * - Gửi tới 2 máy chủ: api-portlogistics.ose.vn (Admin portlogistics) và api-osevn.ose.vn (Admin ose.vn).
+ * - Tuỳ chọn: data-api="https://a,https://b" để đổi danh sách máy chủ nhận số liệu.
  * - Lỗi gì cũng bị bỏ qua: script không bao giờ làm hỏng app.
  */
 (function () {
@@ -24,7 +25,7 @@
     if (!host || host === "localhost" || /^[\d.:]+$/.test(host) || /\.pages\.dev$/.test(host)) return;
 
     var me = d.currentScript;
-    var api = ((me && me.getAttribute("data-api")) || "https://api-portlogistics.ose.vn").replace(/\/$/, "");
+    var apis = ((me && me.getAttribute("data-api")) || "https://api-portlogistics.ose.vn,https://api-osevn.ose.vn").split(",");
 
     // 1 lượt / phiên / app
     var sk = "ose_v_" + host;
@@ -64,13 +65,16 @@
       lang: (n.language || "").slice(0, 2).toLowerCase()
     });
 
-    var send = function () {
+    var sendOne = function (api) {
+      api = (api || "").replace(/\s+/g, "").replace(/\/$/, "");
+      if (!/^https:\/\//.test(api)) return;
       var url = api + "/api/v1/visit";
       try {
         if (n.sendBeacon && n.sendBeacon(url, new Blob([body], { type: "text/plain;charset=UTF-8" }))) return;
       } catch (e) { /* fall through */ }
       try { fetch(url, { method: "POST", body: body, keepalive: true, mode: "no-cors", headers: { "Content-Type": "text/plain;charset=UTF-8" } }); } catch (e) { /* ignore */ }
     };
+    var send = function () { for (var j = 0; j < apis.length; j++) sendOne(apis[j]); };
 
     // Trang mở ngầm (prerender) thì đợi tới khi người dùng thật sự xem
     if (d.visibilityState === "prerender" || d.prerendering) {
